@@ -120,6 +120,7 @@ body{
 
 
 .about{
+    height: auto;
     width: 100%;
     font-size: 23px;
     padding-top: 70px;
@@ -128,6 +129,7 @@ body{
 }
 
 .about-left{
+    height: auto;
     width: 55%;
     float: left;
     background-color: black;
@@ -141,7 +143,7 @@ body{
 }
 
 .about-right{
-    height: 90vh;
+    height: 89vh;
     width: 45%;
     float: right;
 }
@@ -211,7 +213,7 @@ body{
     font-family: 'Open Sans', sans-serif;;
     max-width: 100%;
     background-color: white;
-    padding: 20px;
+    padding: 18px;
     margin: 3em 3em 2em 3em;
     display: inline-flex;
 }
@@ -219,7 +221,7 @@ body{
 .meet-left{
     width: 50%;
     display: flex;
-    padding: 25px;
+    padding: 23px;
     margin-left: 10px;
     justify-content: center;
     flex-direction: column;
@@ -445,7 +447,7 @@ body{
 }
 
 .skill-info{
-    height: 220px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,6 +457,7 @@ body{
 .skill-info h2{
     font-size: 30px;
     font-weight: 700;
+    text-align: center;
     padding: 5px;
     margin-top: 30px;
     
@@ -710,6 +713,24 @@ div>img{
 
 
 
+@media screen and (min-width: 770px) and (max-width: 1130px){
+    
+    .meet{
+        margin: 1.5em;
+    }
+
+    .meet-left{
+        padding: 20px;
+    }
+
+    .skill-grid{
+        margin: 1em 1.5em;
+    }
+
+}
+
+
+
 
 
 
@@ -788,14 +809,32 @@ div>img{
     .about-left{
         height: auto;
         width: 100%;
-        padding: 46px 20px 20px 20px;
+        padding: 45px 20px 20px 20px;
         box-sizing: border-box;
     }
-    
+
     .meet-left{
         width: 100%;
-        padding: 20px;
+        padding: 15px;
+        margin: 0px;
         box-sizing: border-box;
+    }
+
+    .meet-left h2{
+        font-size: 36px;
+        letter-spacing: 1.2px;
+        font-weight: 700;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .meet-left p{
+        font-size: 18px;
+        letter-spacing: 1.1px;
+        line-height: 24px;
+        opacity: 0.8;
+        padding: 10px;
+        margin: 5px;
     }
 
     .about-right{
@@ -812,10 +851,14 @@ div>img{
 
     .meet-right{
         width: 100%;
-        margin: 10px;
+        margin: 1em 1em 1em 0.5em;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .meet-right img{
+        box-sizing: border-box;
     }
     
     .about-left h2{
@@ -848,7 +891,7 @@ div>img{
 
 
     .info{
-        width: 97%;
+        width: 100%;
         padding: 15px 0px;
     }
 
@@ -868,7 +911,7 @@ div>img{
         margin-right: 44px;
         margin-bottom: 50px;
     }
-    
+
     .contact-info-icon{
         height: 50px;
         width: 50px;
