@@ -863,9 +863,19 @@ div>img{
         width: 100%;
     }
 
+    .contact-info{
+        margin-left: 7px;
+        margin-right: 44px;
+        margin-bottom: 50px;
+    }
+    
     .contact-info-icon{
         height: 50px;
         width: 50px;
+    }
+
+    .section-title h2{
+        font-size: 2.1rem;
     }
 
     .contact-info-text h4{
