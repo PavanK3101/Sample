@@ -134,7 +134,6 @@ body{
     float: left;
     background-color: black;
     color: white;
-    height: 70vh;
     padding: 3em;
     display: flex;
     justify-content: center;
@@ -143,9 +142,10 @@ body{
 }
 
 .about-right{
-    height: 89vh;
+    height: auto;
     width: 45%;
     float: right;
+    box-sizing: border-box;
 }
 
 .about-right img {
@@ -504,6 +504,13 @@ body{
     flex-direction: column;
 }
 
+.contact-info {
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .contact-form input,textarea{
     width: 100%;
     margin-bottom: 1em;
@@ -715,12 +722,37 @@ div>img{
 
 @media screen and (min-width: 770px) and (max-width: 1130px){
     
+    .about-left{
+        height: auto;
+        width: 100%;
+        padding: 2.5em 18px 18px 18px;
+        box-sizing: border-box;
+    }
+
+    .about-left h2{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: normal;
+    }
+
+    .about-left p{
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: normal;
+        word-break: break-word;
+    }
+
+    .about-left label{
+        font-size: 17px;
+    }
+
     .meet{
         margin: 1.5em;
     }
 
     .meet-left{
-        padding: 20px;
+        padding:20px 18px;
     }
 
     .skill-grid{
@@ -913,8 +945,8 @@ div>img{
     }
 
     .contact-info-icon{
-        height: 50px;
-        width: 50px;
+        height: 55px;
+        width: 55px;
     }
 
     .section-title h2{
@@ -922,11 +954,11 @@ div>img{
     }
 
     .contact-info-text h4{
-        font-size: 1.2rem;
+        font-size: 1.25rem;
     }
 
     .contact-info-text p{
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     footer{
