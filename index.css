@@ -720,6 +720,14 @@ div>img{
 
 
 @media screen and (min-width: 770px) and (max-width: 1130px){
+    .nav-item{
+        margin: 0px;
+    }
+    
+    .nav-link li{
+        font-size: 17px;
+        margin: 0.5em;
+    }
     
     .about-left{
         height: auto;
