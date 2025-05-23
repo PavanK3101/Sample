@@ -609,7 +609,6 @@ body{
 
 /* Footer */
 footer{
-    height: auto;
     max-width: 100%;
     background-color: rgba(224, 239, 239, 0.607);
     padding: 30px;
